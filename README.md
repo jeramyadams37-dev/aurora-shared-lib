@@ -1,3 +1,11 @@
+## Quick Install
+
+```bash
+curl -sL https://raw.githubusercontent.com/jeramyadams37-dev/aurora-shared-lib/main/install.sh | bash -s -- all
+```
+
+Or install specific modules only: `gemini`, `ci`, `secrets`, `build`
+
 # Aurora Shared Lib
 
 Centralized, tested components pulled out of Harmony, Legacy Keeper, Atothei, aixoverlay,

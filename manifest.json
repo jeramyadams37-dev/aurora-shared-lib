@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-07-13",
+  "modules": {
+    "gemini": {
+      "path": "gemini/geminiClient.js",
+      "version": "1.0.0",
+      "fixes": "Recurring no-content payload bug (Harmony, Legacy Keeper)"
+    },
+    "ci": {
+      "path": "ci-templates/android.yml",
+      "version": "1.0.0",
+      "fixes": "Stale/empty APK asset bug (Harmony, aixoverlay)"
+    },
+    "secrets": {
+      "path": "secrets/secrets_loader.py",
+      "version": "1.0.0",
+      "fixes": "Hardcoded credential exposure (Atothei, Legacy Keeper)"
+    },
+    "build": {
+      "path": "build-scripts/build_apk.sh",
+      "version": "1.0.0",
+      "fixes": "Manual native Android build standardization (AIScreenReader)"
+    }
+  },
+  "consuming_projects": {
+    "harmony": { "modules_installed": [], "last_synced": null },
+    "legacy-keeper": { "modules_installed": [], "last_synced": null },
+    "atothei": { "modules_installed": [], "last_synced": null },
+    "legal-ai-assistant": { "modules_installed": [], "last_synced": null },
+    "aixoverlay": { "modules_installed": [], "last_synced": null }
+  }
+}
